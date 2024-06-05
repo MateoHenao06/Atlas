@@ -361,3 +361,21 @@ footer{
         font-size: 20px;
     }
 }
+@media screen and (max-width: 768px){
+    #Get{
+        margin-right: 20px;
+    }
+    .texto{
+        font-size: 20px;
+    }
+    .h4{
+        font-size: 25px;
+    }
+    .title4{
+        font-size: 25px;
+    }
+    .client{
+        width: 14%;
+        height: auto;
+    }
+}

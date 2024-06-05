@@ -289,18 +289,75 @@ footer{
 }
 
 @media screen and (max-width: 1279px){
-    .company{
+    .compañias{
         display: flex;
         justify-content: space-around;
         padding: 1vh;
         background-color: #dfdcdc;
     }
-    .word{
+    .texto{
     font-family:sans-serif;
     font-size:  48px;
     }
     .client {
     margin: 20px;
     margin-right: 30px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .caja1{
+        padding: 50px;
+    }
+    #logo{
+        width: 90px;
+        height: auto;
+        margin: 6px 70px;
+    }
+    .texto{
+        font-size: 35px;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    .atlas{
+        display: flex;
+        margin: 20px;
+        justify-content: space-between;
+    }
+    .atlas div, .atlas img{
+        width: 55%;
+        height: 30%;
+        margin: 10px 0;
+    }
+    .feature-2{
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2, .color_container, .container4{
+        width: 45%;
+        margin: 20px 0;
+    }
+    .compañias{
+        display: flex;
+        justify-content: space-between;
+        padding: 1vh;
+        background-color: #f1f0f0;
+    }
+    .client{
+        margin: 5px;
+        margin-right: 10px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .h1-C{
+        font-size: 20px;
     }
 }

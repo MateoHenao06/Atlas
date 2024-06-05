@@ -485,3 +485,82 @@ footer{
         justify-content: center;
     }
 }
+@media screen and (max-width: 352px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .caja1{
+        padding: 5px 0;
+    }
+    #Get{
+        margin: 10px 0;
+    }
+    .title1{
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .btncj1{
+        padding: 5px 40px;
+        background-color: #6fe0aa;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .img{
+        margin: 10px 0;
+    }
+    .title4{
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container1{
+        flex-direction: column;
+        justify-content: center;
+        width:auto;
+    }
+    .container2{
+        text-align: center;
+        margin: 30px 100px;
+        max-width: 300px;
+    }
+    .color_container{
+        margin: 30px 30px;
+        justify-content: center;
+    }
+    .container3{
+        text-align: center;
+        margin: 30px 100px;
+        max-width: 300px;
+    }
+    .container4{
+        text-align: center;
+        margin: 30px 100px;
+        max-width: 300px;
+    }
+    .compañias{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding: 140px;
+        background-color: #f1f0f0;
+        width: 100px;
+    }
+    .compañias-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    .client{
+        margin: 10px;
+        max-height: 35px;
+        width:auto;
+    }
+}

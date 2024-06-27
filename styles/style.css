@@ -181,6 +181,8 @@ span{
     justify-content: space-evenly;
     padding: 1vh;
     background-color: #f1f0f0;
+    position: sticky;
+    bottom: 10px;
 }
 .client {
     margin: 30px;
@@ -286,6 +288,20 @@ footer{
     border: none;
     padding: 5px 7px;
     border-color: rgb(2, 6, 31)
+}
+
+.pacman{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+.pacman img{
+    width: 50px;
+    height: 50px;
+    margin-left: 700px;
+    position: relative;
+    bottom: 25px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1279px){
